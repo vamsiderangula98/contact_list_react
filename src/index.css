@@ -20,14 +20,20 @@
   .navbar-container{
     height:70px;
     width:100vw;
-    background-color:aqua;
+    background-color:rgb(16, 16, 51);
     display: flex;
     
   }
+  h1{
+    color: aquamarine!important;
+  }
   .navbar-content{
+     
     font-size:2rem;
     font-family:'Times New Roman', Times, serif;
-    width:50%;
+    position:relative;
+    left:10%;
+
   }
   
   
@@ -65,6 +71,7 @@
     text-align: center;
     display: inline-block;
     margin-left: 10px;
+    font-size: 1.5rem!important;
   }
   .delete-btn{
     margin:0px 10px!important;
@@ -78,4 +85,7 @@
   
   }
   
-  
+  .list-group-flush{
+      font-weight:300!important;
+      font-family:sans-serif!important;
+  }

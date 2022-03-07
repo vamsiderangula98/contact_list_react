@@ -8,7 +8,7 @@ class NavBar extends React.Component{
     return (
       <div className='navbar-container'>
           <div className='navbar-content'>
-          <h1 className="text-left text-success "> My Contact App</h1>
+          <h1 className="text-left"> My Contact App</h1>
           </div>
         
       </div>
