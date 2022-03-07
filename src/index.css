@@ -1,0 +1,81 @@
+
+
+
+.App {
+    background:linear-gradient(45deg,lightpink,lightblue);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  /* card css */
+  @media (min-width: 478px) {
+    .card-group {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+  }
+  .navbar-container{
+    height:70px;
+    width:100vw;
+    background-color:aqua;
+    display: flex;
+    
+  }
+  .navbar-content{
+    font-size:2rem;
+    font-family:'Times New Roman', Times, serif;
+    width:50%;
+  }
+  
+  
+  .add-contact-btn{
+    position: relative;
+    margin-left:90%;
+    background-color: navy!important;
+    width:200px!important;
+  }
+  .create-form{
+    border: 2px solid grey;
+    background-color:rgb(250, 230, 193);
+    border-radius:1rem 1rem;
+    padding:4px;
+    
+    
+  }
+  .add-btn{
+    left:40%;
+    position: relative;
+  }
+  .list-group-flush{
+    border: none!important;
+  }
+  .contact-container{
+    border-radius: 1rem 1rem!important;
+    background-color:rgb(233, 220, 196)!important;
+  }
+  img{
+  height:50px;
+  width:50px;
+  display:inline-block;
+  }
+  .card-title{
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .delete-btn{
+    margin:0px 10px!important;
+    color:yellow!important;
+    background-color:brown!important;
+  }
+  .edit-btn{
+    margin:0px 10px!important;
+    color:yellow!important;
+    background-color: blueviolet!important;
+  
+  }
+  
+  
