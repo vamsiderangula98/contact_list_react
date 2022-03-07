@@ -67,7 +67,7 @@ class Contact extends React.Component {
         
             >
               <Card.Body>
-      <img src="https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1646658929~hmac=af11018bffbe2178187b4ce7cf2ced49" alt="profile-pic"></img>
+             <img src="../../public/profilepic.png"></img>
                 <Card.Title className='card-title'>{name}</Card.Title>
               </Card.Body>
               <ColoredLine color="grey" />
