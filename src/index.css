@@ -68,6 +68,7 @@
   display:inline-block;
   }
   .card-title{
+    color:purple;
     text-align: center;
     display: inline-block;
     margin-left: 10px;
